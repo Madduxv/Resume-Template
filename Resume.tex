@@ -1,0 +1,81 @@
+%! TEX TS-program = xelatex
+\documentclass[11pt, letterpaper]{article}
+\usepackage{fontspec}
+\setmainfont{Arial}
+\usepackage{hyperref}
+\usepackage[a4paper,
+            bindingoffset=0.2in,
+            left=0.5in,
+            right=0.5in,
+            top=0.70in,
+            bottom=0.5in,
+            footskip=.25in]{geometry}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdfpagemode=FullScreen,
+    }
+
+\begin{document}
+\pagestyle{empty}
+
+% Title
+\begin{center}
+\textbf{\huge{Insert Name}}\\
+\url{example@email.com} $|$ (555) 555-5555 $|$ \url{github.com/YourLink}
+\end{center}
+
+% Summary
+\textbf{\large{Summary}}\\
+\noindent\rule{17.5cm}{0.4pt}\\
+\indent Summary section blah blah blah no fancy buzzwords
+\\\newline
+
+% Projects
+\textbf{\large{Projects}}\\
+\noindent\rule{17.5cm}{0.4pt}\\
+\begin{itemize}
+  \item \href{http://github.com/}{Project 1:}
+
+    \begin{itemize}
+      \item Description blah blah blah
+      \item More blah, and more blah
+      \item Even more blah
+    \end{itemize}
+
+  \item \href{http://github.com/}{Project 2:}
+
+    \begin{itemize}
+      \item Description blah blah blah
+      \item More and more blah
+      \item Even more blah
+    \end{itemize}
+
+  \item \href{http://github.com/}{Project 3:}
+
+    \begin{itemize}
+      \item Description blah blah blah
+      \item Blah Blah Blah
+      \item Even more blah
+\newline
+
+    \end{itemize}
+\end{itemize}
+
+% Education
+\textbf{\large{Education}}\\
+\noindent\rule{17.5cm}{0.4pt}\\
+\indent \textbf{University of Blah at Blah} College of Blah August YEAR - May YEAR\\
+\\\indent\textbf{Degree:} Bachelor's In Computer Science with a concentration in Cloud Computing\\
+\\\indent\textbf{Achievements:}
+\begin{itemize}
+  \item Dean's List: YEAR-YEAR
+  \item GPA: 3.6
+  \item Some club or something
+\end{itemize}
+
+
+\end{document}
+
